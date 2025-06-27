@@ -34,6 +34,31 @@ There are many other providers available, and new ones are being added all the t
 
 Providers are an essential part of Terraform. They allow Terraform to interact with a wide variety of cloud providers and other APIs. This makes Terraform a very versatile tool that can be used to manage a wide variety of infrastructure.
 
+## types of providers in terraform
+
+
+### ✅ **Official Providers**
+
+Made by Terraform team for main cloud platforms.
+**Example:** AWS, Azure, Google
+
+---
+
+### 🤝 **Partner Providers**
+
+Made by other companies but supported by Terraform.
+**Example:** Datadog, Snowflake
+
+---
+
+### 🌐 **Community Providers**
+
+Made by normal users or open-source people.
+**Example:** Docker, GitHub runner
+
+---
+
+
 
 ## Different ways to configure providers in terraform
 
