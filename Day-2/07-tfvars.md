@@ -14,6 +14,12 @@ Here's the purpose of `.tfvars` files:
 
 4. **Collaboration**: When working in a team, each team member can have their own `.tfvars` file to set values specific to their environment or workflow. This avoids conflicts in the codebase when multiple people are working on the same Terraform project.
 
+5. **example**:
+region        = "ap-south-1"
+env           = "dev"
+instance_type = "t3.micro"
+
+
 ## Summary
 
 Here's how you typically use `.tfvars` files
