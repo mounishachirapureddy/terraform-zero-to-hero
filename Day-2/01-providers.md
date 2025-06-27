@@ -1,4 +1,4 @@
-# Providers 
+# Providers -initialises backend and initiliases provider plugins and creates a lock file(terraform.lock.hcl)--to record the provider selections that made above include this file in your version control repository so that terraform can gaurantee to make the same selections by default when you run terraform init in future 
 
 A provider in Terraform is a plugin that enables interaction with an API. 
 This includes cloud providers, SaaS providers, and other APIs. The providers are specified in the Terraform configuration code. They tell Terraform which services it needs to interact with.
