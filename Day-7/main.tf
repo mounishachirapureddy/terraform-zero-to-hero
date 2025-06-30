@@ -16,7 +16,7 @@ provider "vault" {
   }
 }
 
-data "vault_kv_secret_v2" "example" {
+data "vault_kkv2_secret" "example" {
   mount = "secret" // change it according to your mount
   name  = "test-secret" // change it according to your secret
 }
