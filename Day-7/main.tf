@@ -11,7 +11,7 @@ provider "vault" {
 
     parameters = {
       role_id   = "b688f2b6-ba4b-ea62-2f85-cd5a00538c65"
-      secret_id = "c1ab4fc0-672a-e693-3550-875e1f2af15a"
+      secret_id = "7f747ddd-f1de-6add-3043-c85bef5a15ed"
     }
   }
 }
