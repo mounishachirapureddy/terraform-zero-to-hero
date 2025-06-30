@@ -22,7 +22,7 @@ data "vault_kv_secret_v2" "example" {
 }
 
 resource "aws_instance" "my_instance" {
-  ami           = "ami-053b0d53c279acc90"
+  ami           = "ami-00c8ac9147e19828e"
   instance_type = "t2.micro"
 
   tags = {
