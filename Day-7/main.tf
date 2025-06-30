@@ -1,17 +1,17 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "eu-north-1"
 }
 
 provider "vault" {
-  address = "<>:8200"
+  address = "http://56.228.41.226:8200/"
   skip_child_token = true
 
   auth_login {
     path = "auth/approle/login"
 
     parameters = {
-      role_id = "<>"
-      secret_id = "<>"
+      role_id = "<b688f2b6-ba4b-ea62-2f85-cd5a00538c65>"
+      secret_id = "<c1ab4fc0-672a-e693-3550-875e1f2af15a>"
     }
   }
 }
