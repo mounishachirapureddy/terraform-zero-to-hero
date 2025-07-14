@@ -1,8 +1,4 @@
-Here’s an easy-to-understand breakdown of the **Infrastructure Lifecycle** — the steps involved in managing infrastructure (servers, networks, storage, etc.) from start to finish.
-
----
-
-### 🏗️ **Infrastructure Lifecycle (Easy Explanation)**
+### 🏗️ **Infrastructure Lifecycle **
 
 ---
 
